@@ -1,0 +1,12 @@
+#caraslider ul li{
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background-color: #0000ff;
+    float:left;
+
+}
+
+#caraslider ul li div{
+
+}
