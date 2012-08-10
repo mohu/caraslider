@@ -1,3 +1,15 @@
+#Image Caraousel Slider
+
+## About
+
+Simple image carasoul slider that accepts images in an un-ordered list as each individual field. Uses JQuery and CSS to achieve this.
+
+## Setup
+
+Setup is simple. If you would like to change attributes of the slider, navigate to the end of the script and find section to edit attributes. Bear in mind, you need to change relevant section of CSS to properly display caraousel.
+
+## Notes
+
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template that helps you build fast, robust, adaptable, and future-proof websites. Spend more time developing and less time reinventing the wheel.

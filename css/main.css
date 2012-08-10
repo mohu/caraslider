@@ -1,12 +1,44 @@
+/*Changes
+
+1.*/
+
 #caraslider ul li{
     list-style: none;
-    width: 80px;
-    height: 80px;
-    background-color: #0000ff;
+    /*Change width and heigth to match image width and height*/
+    width: 130px;
+    height: 130px;
+    background-color: #d8d5cf;
     float:left;
-
 }
 
-#caraslider ul li div{
+#leftnav {
+  z-index: 10;
+  text-indent: -9999px;
+  background-image: url(/img/left_arrow.png);
+  display: block;
+  height: 130px;
+  width: 43px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
 
+#leftnav:hover {
+  background-image: url(/img/left_arrow_hover.png);
+}
+
+#rightnav {
+  z-index: 10;
+  text-indent: -9999px;
+  background-image: url(/img/right_arrow.png);
+  display: block;
+  height: 130px;
+  width: 43px;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+#rightnav:hover {
+  background-image: url(/img/right_arrow_hover.png);
 }
